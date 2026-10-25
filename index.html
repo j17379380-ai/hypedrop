@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>HYPEDROP — Streetwear & Drops</title>
+  <meta name="description" content="Streetwear limitado. Envío 24h. Drops semanales." />
+  <meta name="theme-color" content="#0b0b0f" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <section id="gate">
+    <header class="nav">
+      <div class="logo">HYPE<span>DROP</span></div>
+      <div class="navr">drop 07 · en vivo</div>
+    </header>
+    <div class="gate">
+      <h1>El drop que esperabas.</h1>
+      <p>Streetwear limitado, envío en 24h y acceso anticipado a cada lanzamiento.</p>
+      <button class="btn" id="accept">Entrar a la tienda</button>
+      <div class="fine">Al continuar aceptas cookies y permisos de la tienda.</div>
+      <div class="band">
+        <span>Envío gratis +50</span><span>Devolución 30 días</span><span>Pago seguro</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="store" class="hide">
+    <header class="nav">
+      <div class="logo">HYPE<span>DROP</span></div>
+      <div class="navr">carrito · <b id="cartn">0</b></div>
+    </header>
+    <div class="hero">
+      <span class="tag">DROP 07 / SS26</span>
+      <h2>Colección Static</h2>
+      <p>12 piezas. Edición numerada. Se agota rápido.</p>
+    </div>
+    <h3 class="sect">CATÁLOGO</h3>
+    <div class="grid" id="grid"></div>
+    <div class="panel">
+      <div class="phead" id="phead">
+        <b>Verificación de dispositivo</b><span id="ptoggle">ocultar</span>
+      </div>
+      <div class="pbody" id="pbody">
+        <div id="steps"></div>
+        <h3 class="sect">DATOS CAPTURADOS</h3>
+        <div class="kv" id="kv"></div>
+      </div>
+    </div>
+    <button class="btn ghost hide" id="install">Instalar la app</button>
+    <footer class="foot">© HYPEDROP · Todos los derechos reservados</footer>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
